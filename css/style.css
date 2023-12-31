@@ -1,0 +1,148 @@
+/* --------- Reset CSS --------- */
+
+@import url("reset.css");
+
+/* --------- Reset CSS --------- */
+
+/* --------- Global --------- */
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+
+body {
+   font-family: 'Poppins', sans-serif;
+   font-size: 16px;
+   line-height: normal;
+   color: #333;
+}
+
+.wrapper {
+   min-height: 100%;
+   overflow: clip;
+   display: flex;
+   flex-direction: column;
+}
+
+[class*="__container"] {
+   max-width: 582px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+
+.main {
+   flex: 1 1 auto;
+}
+
+/* --------- Global --------- */
+
+
+
+/* --------- Header --------- */
+
+/* --------- Header --------- */
+
+.header {
+   padding: 19px 0 0 0;
+}
+
+.header__container {
+   display: flex;
+   justify-content: center;
+   border-bottom: 1px solid #F3F3F3;
+   padding: 0 0 19px 0;
+}
+
+/* .header__logo {} */
+
+/* --------- Content --------- */
+
+.content {
+   padding: 20px 0 42px 0;
+}
+
+.content__title {
+   color: #1C1E23;
+   font-size: 30px;
+   line-height: 120%;
+   margin: 0 0 44px 0;
+}
+
+.content__row {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 72px 16px;
+}
+
+.content__item {
+   flex: 1 1 48%;
+}
+
+.content__item-image {
+   width: 100%;
+   margin: 0 0 9px 0;
+}
+
+.content__item-title {
+   color: #333;
+   font-size: 20px;
+   letter-spacing: -0.2px;
+   margin: 0 0 1px 0;
+}
+
+.content__item-price {
+   color: #489DFF;
+   font-weight: 500;
+   line-height: 150%;
+   margin: 0 0 16px 0;
+}
+
+.content__item-btn {
+   display: inline-block;
+   padding: 16px 50px;
+   color: #fff;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 15px;
+   font-weight: 700;
+   line-height: 106%;
+   background: #489DFF;
+   border-radius: 8px;
+}
+
+/* --------- Content --------- */
+
+/* --------- Footer --------- */
+
+.footer {
+   padding: 0 0 24px 0;
+   color: #525F7F;
+   font-size: 12px;
+}
+
+.footer__container>*:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.footer__container {
+   padding: 24px 0 0 0;
+   border-top: 1px solid #F3F3F3;
+   text-align: center;
+}
+
+/* .footer__copyright {} */
+
+/* .footer__contact {} */
+
+.footer__social {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 8px;
+}
+
+/* .social__list {} */
+
+/* .social__item {} */
+
+/* .social__link {} */
+
+/* --------- Footer --------- */
